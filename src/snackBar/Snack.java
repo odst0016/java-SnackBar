@@ -61,4 +61,11 @@ public class Snack {
         return cost * howMany;
     }
 
+    @Override
+    public String toString() {
+        String rtnStr = "id: " + id + "\n" + "name: " + name + "\n" + "quantity: " + quantity + "\n" + "cost: " + cost
+                + "\n" + "Vending Machine ID: " + vendingMachineId;
+        return rtnStr;
+    }
+
 }

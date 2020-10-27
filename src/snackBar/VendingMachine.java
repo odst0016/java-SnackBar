@@ -22,4 +22,10 @@ public class VendingMachine {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        String rtnStr = "id: " + id + "\n" + "name: " + name;
+        return rtnStr;
+    }
 }
